@@ -5,8 +5,8 @@ metadata:
   namespace: argocd
 spec:
   destination:
-    namespace: stage
-    name: kind
+    namespace: staging
+    name: in-cluster
   project: default
   sources:
     # Chart from Chart Repo
